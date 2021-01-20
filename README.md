@@ -1,1 +1,1 @@
-# AI - Analytics and Impact using Articial Intelligence as much as possible :D
+# AI - Analytics and Impact using Artificial Intelligence as much as possible :D
