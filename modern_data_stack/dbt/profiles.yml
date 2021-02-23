@@ -1,0 +1,13 @@
+# example profiles.yml file
+ds4fnp:
+  
+  outputs:
+    local:
+      type: postgres
+      host: 127.0.0.1
+      user: ds4fnp
+      pass: ds4fnp
+      port: 5432
+      dbname: ds4fnp
+      schema: public
+  target: local
