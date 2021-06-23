@@ -71,7 +71,7 @@ st.text("")
 
 
 st.write("Interactivity:")
-st.write("At the upper right of each graph, you'll find options to download the plot, zoom, pan, hover, autoscale, reset axes, view with toggle spike lines, and specify hover output information. Controls I find most helpful are: /'Compare data on hover/' and /'Toggle Spike Lines/' where appropriate. Feel free to interact with your visualizalizations!")
+st.write("At the upper right of each graph, you'll find options to download the plot, zoom, pan, hover, autoscale, reset axes, view with toggle spike lines, and specify hover output information. Controls I find most helpful are: 'Compare data on hover' and 'Toggle Spike Lines' where appropriate. Feel free to interact with your visualizalizations!")
 
 
 plotly_figure1 = px.line(dataframe2, x='settlement_time', y=dataframe2.columns[4:], title='Differences from Actual: Fluence vs Market')
