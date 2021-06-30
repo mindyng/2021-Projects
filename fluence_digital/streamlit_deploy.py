@@ -14,12 +14,15 @@ st.text("")
 #Grab all the data from Snowflake DWH
 
 url = URL(
-    account = 'ke74435',
-    user = 'MINDYNG',
-    password = 'xH@9RPqxDFgJtk3r_o',
-    warehouse = 'CASESTUDY_WH',
-    database = 'CASESTUDY',
-    schema = 'CASESTUDY_MINDY')
+
+    account = st.secrets["account"],
+    user = st.secrets["user"],
+    password = st.secrets["password"],
+    warehouse = st.secrets["warehouse"],
+    database =  st.secrets["database"],
+    schema = st.secrets["schema"]
+
+    )
 
 engine = create_engine(url)
 
