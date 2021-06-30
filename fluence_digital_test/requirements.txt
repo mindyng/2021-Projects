@@ -1,6 +1,0 @@
-snowflake_sqlalchemy==1.2.4
-SQLAlchemy==1.4.18
-streamlit==0.83.0
-pandas==1.2.4
-plotly==5.0.0
-snowflake==0.0.3
